@@ -17,7 +17,6 @@ public class TestingClass {
         professor.surname = "Verdi ";
         professor.collegeId = 4;
 
-
         assistant.goToCollege();
         student.goToCollege();
         professor.goToCollege();

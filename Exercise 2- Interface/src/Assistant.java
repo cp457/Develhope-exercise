@@ -14,10 +14,10 @@ public class Assistant extends  CollegePerson implements TeachingPerson, Learnin
 
     public void data3(String name, String surname, int id, boolean willBeAPhD){
 
-        name = "Laura";
-        surname = "Lauri";
-        id = 10;
-        willBeAPhD = false;
+        this.name = name;
+        this.surname = surname;
+        this.collegeId = id;
+        this.isGoingToBeAPhD = willBeAPhD;
     }
 
     @Override

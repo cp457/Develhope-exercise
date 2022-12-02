@@ -10,10 +10,10 @@ public class Professor extends CollegePerson implements TeachingPerson {
 
     public void data2(String name, String surname, int id, String subject){
 
-        name = "Mr.Teacher";
-        surname = "Mr.Teachersurname";
-        id = 8;
-        subject = "Really don't know";
+        this.name = name;
+        this.surname = surname;
+        this.collegeId = id;
+        this.teachingSubject = subject;
 
     }
 }

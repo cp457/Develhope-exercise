@@ -1,4 +1,4 @@
-public abstract class CollegePerson{
+public class CollegePerson{
 
     String name;
     String surname;
@@ -7,6 +7,7 @@ public abstract class CollegePerson{
     public void goToCollege(){
 
         System.out.println(name + surname + collegeId);
+
     }
 }
 

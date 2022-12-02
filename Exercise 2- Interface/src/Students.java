@@ -12,10 +12,10 @@ public class Students extends CollegePerson implements LearningPerson {
 
     public void data(String name, String surname, int id, int year){
 
-          name = "Chris";
-          surname = "Priolo";
-          id = 7;
-          year = 26;
+          this.name = name;
+          this.surname = surname;
+          this.collegeId = id;
+          this.academicYear = year;
 
     }
 
