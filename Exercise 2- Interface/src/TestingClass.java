@@ -1,21 +1,10 @@
 public class TestingClass {
     public static void main(String[] args) {
 
-        Students student = new Students();
-        Professor professor = new Professor();
-        Assistant assistant = new Assistant();
+        Students student = new Students("Giulia ", "Boldi ", 7, 8);
+        Professor professor = new Professor("Mario ", "Marii ", 8, "Massimo" ) ;
+        Assistant assistant = new Assistant("Mirko ", "Verdi ", 6, false);
 
-        assistant.name = "Giulia ";
-        assistant.surname = " Boldi ";
-        assistant.collegeId = 5;
-
-        student.name = "Mario ";
-        student.surname = " Mariii ";
-        student.collegeId = 6;
-
-        professor.name = "Mirko ";
-        professor.surname = "Verdi ";
-        professor.collegeId = 4;
 
         assistant.goToCollege();
         student.goToCollege();

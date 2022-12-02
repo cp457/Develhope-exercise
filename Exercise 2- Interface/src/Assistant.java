@@ -12,7 +12,7 @@ public class Assistant extends  CollegePerson implements TeachingPerson, Learnin
 
      boolean isGoingToBeAPhD;
 
-    public void data3(String name, String surname, int id, boolean willBeAPhD){
+    public Assistant (String name, String surname, int id, boolean willBeAPhD){
 
         this.name = name;
         this.surname = surname;

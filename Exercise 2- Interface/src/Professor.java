@@ -8,7 +8,7 @@ public class Professor extends CollegePerson implements TeachingPerson {
     }
     String teachingSubject;
 
-    public void data2(String name, String surname, int id, String subject){
+    public Professor (String name, String surname, int id, String subject){
 
         this.name = name;
         this.surname = surname;
